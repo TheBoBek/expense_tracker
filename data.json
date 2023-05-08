@@ -1,0 +1,812 @@
+{
+    "2023-04-20 19:54:55.551053": {
+        "Transaction": 1,
+        "Name": "Od Mareka",
+        "Value": 10.0,
+        "Type": 7
+    },
+    "2023-04-20 19:55:23.519242": {
+        "Transaction": 1,
+        "Name": "Pr\u00e9mie",
+        "Value": 10.0,
+        "Type": 7
+    },
+    "2023-04-20 19:55:34.736175": {
+        "Transaction": 1,
+        "Name": "(Nepovinne)",
+        "Value": 10.0,
+        "Type": 7
+    },
+    "2023-04-20 19:55:48.270325": {
+        "Transaction": 1,
+        "Name": "(Nepovinne)",
+        "Value": 10.0,
+        "Type": 7
+    },
+    "2023-04-20 19:57:18.686667": {
+        "Transaction": 1,
+        "Name": "(Nepovinne)",
+        "Value": 50.0,
+        "Type": 7
+    },
+    "2023-04-20 20:00:34.255145": {
+        "Transaction": 1,
+        "Name": "(Nepovinne)",
+        "Value": 110.0,
+        "Type": 7
+    },
+    "2023-04-20 20:02:04.438435": {
+        "Transaction": 1,
+        "Name": "(Nepovinne)",
+        "Value": 50.0,
+        "Type": 7
+    },
+    "2023-04-20 20:02:15.370810": {
+        "Transaction": 2,
+        "Name": "(Nepovinne)",
+        "Value": -50.0,
+        "Type": 7
+    },
+    "2023-04-20 20:02:15.370811": {
+        "Transaction": 2,
+        "Name": "(Nepovinne)",
+        "Value": -50.0,
+        "Type": 7
+    },
+    "2022-11-19 22:50:45.468053": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 738,
+        "Type": 4
+    },
+    "2023-03-25 00:24:22.833524": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 403,
+        "Type": 2
+    },
+    "2022-11-13 06:55:15.144591": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 708,
+        "Type": 3
+    },
+    "2022-12-04 10:56:41.881063": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 246,
+        "Type": 1
+    },
+    "2023-01-08 23:35:00.615660": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 453,
+        "Type": 5
+    },
+    "2022-11-23 13:50:05.043235": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 999,
+        "Type": 1
+    },
+    "2022-10-06 14:07:01.364512": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 280,
+        "Type": 5
+    },
+    "2023-01-28 17:16:59.747033": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 20,
+        "Type": 4
+    },
+    "2022-12-29 23:27:50.168542": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 574,
+        "Type": 3
+    },
+    "2022-11-30 11:43:07.652558": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 313,
+        "Type": 5
+    },
+    "2023-02-28 00:14:26.469975": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 614,
+        "Type": 2
+    },
+    "2022-10-06 10:26:33.106244": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 387,
+        "Type": 6
+    },
+    "2023-03-03 11:23:40.426627": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 130,
+        "Type": 2
+    },
+    "2023-01-07 12:23:58.706180": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 476,
+        "Type": 3
+    },
+    "2023-03-09 03:01:48.339870": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 231,
+        "Type": 1
+    },
+    "2023-01-27 04:12:48.033234": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 558,
+        "Type": 2
+    },
+    "2023-02-16 23:07:09.468777": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 928,
+        "Type": 4
+    },
+    "2023-03-28 23:59:35.392909": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 789,
+        "Type": 2
+    },
+    "2022-11-10 04:34:46.749737": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 38,
+        "Type": 2
+    },
+    "2023-01-18 23:54:54.289131": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 960,
+        "Type": 4
+    },
+    "2023-01-07 03:50:12.163483": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 446,
+        "Type": 6
+    },
+    "2023-01-02 07:30:24.257962": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 988,
+        "Type": 2
+    },
+    "2022-10-17 05:31:57.033455": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 895,
+        "Type": 6
+    },
+    "2023-03-31 08:45:31.371489": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 232,
+        "Type": 5
+    },
+    "2023-02-28 23:52:02.815130": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 166,
+        "Type": 1
+    },
+    "2023-01-05 11:58:55.834369": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 17,
+        "Type": 3
+    },
+    "2022-12-17 09:36:05.181573": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 482,
+        "Type": 2
+    },
+    "2023-01-22 17:52:27.690708": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 209,
+        "Type": 6
+    },
+    "2022-11-23 06:25:09.979936": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 152,
+        "Type": 3
+    },
+    "2023-02-03 18:21:06.171150": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 18,
+        "Type": 6
+    },
+    "2023-01-24 09:32:49.979209": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 357,
+        "Type": 4
+    },
+    "2022-11-25 05:07:00.175756": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 633,
+        "Type": 5
+    },
+    "2023-02-16 15:08:57.545366": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 342,
+        "Type": 2
+    },
+    "2023-03-05 17:32:19.509250": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 709,
+        "Type": 6
+    },
+    "2023-02-01 19:38:11.692515": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 239,
+        "Type": 3
+    },
+    "2023-01-19 19:07:49.813520": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 463,
+        "Type": 5
+    },
+    "2022-11-12 16:55:29.198656": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 550,
+        "Type": 3
+    },
+    "2023-04-02 08:26:56.448529": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 152,
+        "Type": 2
+    },
+    "2023-02-06 20:09:28.090611": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 555,
+        "Type": 5
+    },
+    "2022-11-01 16:44:22.350579": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 534,
+        "Type": 1
+    },
+    "2023-02-26 17:06:51.593897": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 960,
+        "Type": 5
+    },
+    "2023-03-12 11:36:09.903767": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 535,
+        "Type": 2
+    },
+    "2023-02-06 07:58:42.564795": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 255,
+        "Type": 2
+    },
+    "2022-10-19 22:08:18.613073": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 984,
+        "Type": 6
+    },
+    "2023-02-26 06:45:01.451581": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 123,
+        "Type": 2
+    },
+    "2022-10-06 14:20:27.116779": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 358,
+        "Type": 6
+    },
+    "2023-02-06 00:05:47.891971": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 591,
+        "Type": 5
+    },
+    "2023-02-28 21:22:59.982822": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 410,
+        "Type": 4
+    },
+    "2022-10-23 03:49:30.123665": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 56,
+        "Type": 2
+    },
+    "2023-01-19 19:41:01.219545": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 903,
+        "Type": 2
+    },
+    "2023-02-10 21:41:13.988318": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 348,
+        "Type": 6
+    },
+    "2023-04-07 01:30:10.081673": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 603,
+        "Type": 3
+    },
+    "2023-02-21 19:30:52.322116": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 619,
+        "Type": 4
+    },
+    "2023-01-04 17:20:23.589359": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 807,
+        "Type": 4
+    },
+    "2023-01-30 06:55:00.379084": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 367,
+        "Type": 4
+    },
+    "2023-04-05 11:06:01.751524": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 224,
+        "Type": 1
+    },
+    "2023-01-10 22:38:41.100368": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 864,
+        "Type": 4
+    },
+    "2022-12-27 15:30:43.024633": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 917,
+        "Type": 4
+    },
+    "2022-11-28 03:08:41.979691": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 894,
+        "Type": 5
+    },
+    "2022-10-11 19:58:43.592687": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 70,
+        "Type": 5
+    },
+    "2022-11-25 20:36:46.942040": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 47,
+        "Type": 2
+    },
+    "2022-12-16 23:36:47.227150": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 850,
+        "Type": 3
+    },
+    "2023-03-04 01:32:22.982202": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 755,
+        "Type": 5
+    },
+    "2022-11-05 03:10:29.607179": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 80,
+        "Type": 3
+    },
+    "2022-12-06 11:09:07.577228": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 877,
+        "Type": 4
+    },
+    "2022-11-06 01:37:23.795104": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 714,
+        "Type": 6
+    },
+    "2022-12-09 12:23:16.810825": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 664,
+        "Type": 1
+    },
+    "2023-03-10 05:45:40.476941": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 164,
+        "Type": 3
+    },
+    "2022-10-27 09:52:31.206533": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 485,
+        "Type": 4
+    },
+    "2022-11-23 04:47:05.588692": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 979,
+        "Type": 2
+    },
+    "2022-10-05 00:27:08.025736": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 234,
+        "Type": 3
+    },
+    "2022-11-06 14:06:02.716522": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 264,
+        "Type": 5
+    },
+    "2023-03-21 19:48:50.463657": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 22,
+        "Type": 2
+    },
+    "2022-11-20 05:33:02.394262": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 111,
+        "Type": 1
+    },
+    "2023-02-01 07:25:33.889918": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 21,
+        "Type": 2
+    },
+    "2023-04-01 17:32:26.351126": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 508,
+        "Type": 6
+    },
+    "2022-11-17 21:11:35.546933": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 43,
+        "Type": 5
+    },
+    "2022-12-31 17:13:27.747487": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 51,
+        "Type": 6
+    },
+    "2023-01-03 23:59:17.468468": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 834,
+        "Type": 5
+    },
+    "2023-04-05 12:18:54.499033": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 154,
+        "Type": 6
+    },
+    "2023-02-01 16:00:22.822595": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 501,
+        "Type": 5
+    },
+    "2023-02-21 11:48:45.412533": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 489,
+        "Type": 1
+    },
+    "2022-10-09 03:19:34.665412": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 307,
+        "Type": 6
+    },
+    "2022-11-27 05:55:12.478403": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 758,
+        "Type": 1
+    },
+    "2023-01-24 06:52:17.318028": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 92,
+        "Type": 1
+    },
+    "2022-12-17 03:53:33.384202": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 737,
+        "Type": 5
+    },
+    "2023-04-03 19:05:34.033113": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 41,
+        "Type": 4
+    },
+    "2022-10-08 09:05:57.983080": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 323,
+        "Type": 1
+    },
+    "2023-03-28 19:23:50.329874": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 437,
+        "Type": 1
+    },
+    "2022-10-10 12:02:17.935777": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 12,
+        "Type": 5
+    },
+    "2023-01-04 21:41:54.763755": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 635,
+        "Type": 2
+    },
+    "2022-11-26 10:26:44.063147": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 948,
+        "Type": 6
+    },
+    "2023-02-01 18:16:42.870655": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 228,
+        "Type": 2
+    },
+    "2022-10-03 19:19:07.980390": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 337,
+        "Type": 4
+    },
+    "2022-10-27 21:58:17.303659": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 412,
+        "Type": 3
+    },
+    "2022-10-13 10:08:23.040667": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 203,
+        "Type": 6
+    },
+    "2022-10-18 13:57:44.792170": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 109,
+        "Type": 2
+    },
+    "2023-03-15 07:44:14.730510": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 225,
+        "Type": 3
+    },
+    "2022-12-19 11:15:18.717800": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 410,
+        "Type": 2
+    },
+    "2023-01-27 01:54:10.681221": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 105,
+        "Type": 2
+    },
+    "2023-02-18 20:58:53.282585": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 432,
+        "Type": 1
+    },
+    "2022-10-17 18:23:34.998053": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 826,
+        "Type": 1
+    },
+    "2022-10-31 20:24:23.695714": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 905,
+        "Type": 5
+    },
+    "2022-12-22 02:53:03.493716": {
+        "Transaction": 1,
+        "Name": "Nepovinne",
+        "Value": 605,
+        "Type": 6
+    },
+    "2023-02-03 22:49:37.805967": {
+        "Transaction": 2,
+        "Name": "Nepovinne",
+        "Value": 829,
+        "Type": 1
+    },
+    "2023-04-21 11:37:54.374120": {
+        "Transaction": 0,
+        "Name": "emat",
+        "Value": 100.0,
+        "Type": 5
+    },
+    "2023-04-21 11:38:11.690921": {
+        "Transaction": 1,
+        "Name": "(Nepovinne)",
+        "Value": 1000.0,
+        "Type": 8
+    },
+    "2023-05-01 23:12:31.714146": {
+        "Transaction": 2,
+        "Name": "(Nepovinne)",
+        "Value": -20.0,
+        "Type": 1
+    },
+    "2023-05-01 23:12:38.964444": {
+        "Transaction": 0,
+        "Name": "(Nepovinne)",
+        "Value": 10.0,
+        "Type": 2
+    },
+    "2023-05-01 23:12:57.397917": {
+        "Transaction": 2,
+        "Name": "(Nepovinne)",
+        "Value": -30.0,
+        "Type": 4
+    },
+    "2023-05-01 23:13:10.615121": {
+        "Transaction": 2,
+        "Name": "(Nepovinne)",
+        "Value": -40.0,
+        "Type": 6
+    },
+    "2023-05-02 09:45:55.717595": {
+        "Transaction": 1,
+        "Name": "\u0160k\u00f4lka",
+        "Value": 8.0,
+        "Type": 7
+    },
+    "2023-05-03 10:16:55.460796": {
+        "Transaction": 1,
+        "Name": "(Nepovinne)",
+        "Value": 30.0,
+        "Type": 7
+    },
+    "2023-05-03 10:17:12.260328": {
+        "Transaction": 2,
+        "Name": "(Nepovinne)",
+        "Value": -10.0,
+        "Type": 5
+    },
+    "2023-05-03 19:56:47.278131": {
+        "Transaction": 1,
+        "Name": "(Nepovinne)",
+        "Value": 1.0,
+        "Type": 7
+    },
+    "2023-05-04 22:30:04.848374": {
+        "Transaction": 1,
+        "Name": "Od Mareka",
+        "Value": 100.0,
+        "Type": 7
+    },
+    "2023-05-04 22:31:48.602651": {
+        "Transaction": 1,
+        "Name": "V\u00fdplata",
+        "Value": 1000.0,
+        "Type": 7
+    },
+    "2023-05-04 22:32:12.970342": {
+        "Transaction": 2,
+        "Name": "N\u00e1kup",
+        "Value": -10.0,
+        "Type": 5
+    },
+    "2023-05-04 22:32:41.771452": {
+        "Transaction": 2,
+        "Name": "(Nepovinne)",
+        "Value": -10.0,
+        "Type": 1
+    },
+    "2023-05-07 10:23:31.754025": {
+        "Transaction": 2,
+        "Name": "(Nepovinne)",
+        "Value": -10.0,
+        "Type": 1
+    },
+    "2023-05-07 10:29:49.517944": {
+        "Transaction": 2,
+        "Name": "(Nepovinne)",
+        "Value": -10.0,
+        "Type": 1
+    },
+    "2023-05-07 10:29:59.501819": {
+        "Transaction": 1,
+        "Name": "(Nepovinne)",
+        "Value": 1000.0,
+        "Type": 8
+    },
+    "2023-05-07 10:30:15.217641": {
+        "Transaction": 2,
+        "Name": "(Nepovinne)",
+        "Value": -500.0,
+        "Type": 5
+    },
+    "2023-05-07 10:30:29.572127": {
+        "Transaction": 2,
+        "Name": "(Nepovinne)",
+        "Value": -350.0,
+        "Type": 4
+    },
+    "2023-05-08 18:21:29.047508": {
+        "Transaction": 1,
+        "Name": "(Nepovinne)",
+        "Value": 1.0,
+        "Type": 7
+    },
+    "2023-05-08 18:45:35.720009": {
+        "Transaction": 1,
+        "Name": "(Nepovinne)",
+        "Value": 1.0,
+        "Type": 7
+    }
+}
