@@ -26,13 +26,14 @@ class MainWindow(Tk):
         self.geometry("%dx%d" % (width, height))
         self.title("Expense Tracker2")
         self.config(bg="#ced4da", width=1280, height=720)
+        self.eval('tk::PlaceWindow . center')
         self.config(bg=WHITE)
-        self.geometry("1280x720")
+        self.geometry("1280x750")
 
         header = Canvas()
         header.config(width=1094, height=80, bg=BLACK, highlightthickness=0)
         header.pack(fill=BOTH, ipady=40, ipadx=20)
-        self.left_header = Frame(header)
+        self.left_header = Frame(header, bg=BLACK)
         self.left_header.pack(side=LEFT)
         Label(self.left_header,
               text="Šimon Bobko",
@@ -201,33 +202,33 @@ class DataManagerWindow:
         self.pridaj_win = Toplevel(root)
         self.pridaj_win.config(width=500,
                                height=400,
-                               bg=BLACK)
+                               bg=WHITE)
         self.var = IntVar()
         self.pridaj_end = False
         Label(self.pridaj_win,
               text="Pridaj transakciu",
-              bg=BLACK,
-              fg=WHITE,
+              bg=WHITE,
+              fg=BLACK,
               font=("Helvetica", 32, "bold")).pack(expand=True, ipadx=200, ipady=20)
 
-        self.frame_upper = Frame(self.pridaj_win, bg=BLACK)
+        self.frame_upper = Frame(self.pridaj_win, bg=WHITE)
         self.frame_upper.pack()
 
-        self.frame_upper_left = Frame(self.frame_upper, bg=BLACK)
+        self.frame_upper_left = Frame(self.frame_upper, bg=WHITE)
         self.frame_upper_left.pack(side=LEFT)
-        self.frame_upper_right = Frame(self.frame_upper, bg=BLACK)
+        self.frame_upper_right = Frame(self.frame_upper, bg=WHITE)
         self.frame_upper_right.pack(side=RIGHT)
         Label(self.frame_upper_left,
               text="Typ transakcie: ",
-              bg=BLACK,
-              fg=WHITE,
+              bg=WHITE,
+              fg=BLACK,
               font=("Helvetica", 17, "bold")).pack()
-        self.frame_transact_tp = Frame(self.frame_upper_right, bg=BLACK)
+        self.frame_transact_tp = Frame(self.frame_upper_right, bg=WHITE)
         self.frame_transact_tp.pack()
         r1 = Radiobutton(self.frame_transact_tp,
                          text="Prijatie",
-                         bg=BLACK,
-                         fg=WHITE,
+                         bg=WHITE,
+                         fg=BLACK,
                          font=("Helvetica", 16, "bold"),
                          variable=self.var,
                          command=self.update_var_income,
@@ -236,8 +237,8 @@ class DataManagerWindow:
 
         r1 = Radiobutton(self.frame_transact_tp,
                          text="Odoslanie",
-                         bg=BLACK,
-                         fg=WHITE,
+                         bg=WHITE,
+                         fg=BLACK,
                          font=("Helvetica", 16, "bold"),
                          variable=self.var,
                          command=self.update_var_outcome,
@@ -246,8 +247,8 @@ class DataManagerWindow:
 
         Label(self.frame_upper_left,
               text="Názov transakcie",
-              bg=BLACK,
-              fg=WHITE,
+              bg=WHITE,
+              fg=BLACK,
               font=("Helvetica", 17, "bold")).pack(ipadx=40)
         self.input1 = Entry(self.frame_upper_right,
                             font=("Helvetica", 16, "bold"),
@@ -257,8 +258,8 @@ class DataManagerWindow:
 
         Label(self.frame_upper_left,
               text="Hodnota:",
-              bg=BLACK,
-              fg=WHITE,
+              bg=WHITE,
+              fg=BLACK,
               font=("Helvetica", 17, "bold")).pack(ipadx=40)
 
         self.input2 = Entry(self.frame_upper_right,
@@ -268,16 +269,16 @@ class DataManagerWindow:
         self.input2.pack()
 
         self.var2 = IntVar()
-        self.frame = Frame(self.pridaj_win, bg=BLACK)
+        self.frame = Frame(self.pridaj_win, bg=WHITE)
         self.frame.pack(ipady=20)
-        self.frame_radio_left = Frame(self.frame, bg=BLACK)
+        self.frame_radio_left = Frame(self.frame, bg=WHITE)
         self.frame_radio_left.pack(side=LEFT)
-        self.frame_radio_right = Frame(self.frame, bg=BLACK)
+        self.frame_radio_right = Frame(self.frame, bg=WHITE)
         self.frame_radio_right.pack(side=RIGHT)
 
         self.ro1 = Radiobutton(self.frame_radio_left,
-                               bg=BLACK,
-                               fg=WHITE,
+                               bg=WHITE,
+                               fg=BLACK,
                                text="Domácnosť           ",
                                font=("Helvetica", 17, "bold"),
                                variable=self.var2,
@@ -285,8 +286,8 @@ class DataManagerWindow:
         self.ro1.pack()
 
         self.ro2 = Radiobutton(self.frame_radio_left,
-                               bg=BLACK,
-                               fg=WHITE,
+                               bg=WHITE,
+                               fg=BLACK,
                                text="Strava                    ",
                                font=("Helvetica", 17, "bold"),
                                variable=self.var2,
@@ -294,8 +295,8 @@ class DataManagerWindow:
         self.ro2.pack()
 
         self.ro3 = Radiobutton(self.frame_radio_left,
-                               bg=BLACK,
-                               fg=WHITE,
+                               bg=WHITE,
+                               fg=BLACK,
                                text="Zdravie a poistenie",
                                font=("Helvetica", 17, "bold"),
                                variable=self.var2,
@@ -303,8 +304,8 @@ class DataManagerWindow:
         self.ro3.pack()
 
         self.ro4 = Radiobutton(self.frame_radio_right,
-                               bg=BLACK,
-                               fg=WHITE,
+                               bg=WHITE,
+                               fg=BLACK,
                                text="Zábava      ",
                                font=("Helvetica", 17, "bold"),
                                variable=self.var2,
@@ -312,8 +313,8 @@ class DataManagerWindow:
         self.ro4.pack()
 
         self.ro5 = Radiobutton(self.frame_radio_right,
-                               bg=BLACK,
-                               fg=WHITE,
+                               bg=WHITE,
+                               fg=BLACK,
                                text="Cestovanie",
                                font=("Helvetica", 17, "bold"),
                                variable=self.var2,
@@ -321,9 +322,9 @@ class DataManagerWindow:
         self.ro5.pack()
 
         self.ro6 = Radiobutton(self.frame_radio_right,
-                               bg=BLACK,
+                               bg=WHITE,
                                text="Iné            ",
-                               fg=WHITE,
+                               fg=BLACK,
                                font=("Helvetica", 17, "bold"),
                                variable=self.var2,
                                value=6)
@@ -331,8 +332,8 @@ class DataManagerWindow:
 
         self.pridaj_button = Button(self.pridaj_win,
                                     text="Pridaj",
-                                    bg="green",
-                                    fg=BLACK,
+                                    bg=GREEN,
+                                    fg=WHITE,
                                     borderwidth=0,
                                     width=8,
                                     font=("Helvetica", 20, "bold"))
