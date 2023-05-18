@@ -17,7 +17,6 @@ def pridaj():
     global value
     data_manager_window = DataManagerWindow(gui)  # Creates second window for data management
     data_manager = DataManager()
-    print("Zostatok", value)
     data_manager_window.pridaj_button.config(command=lambda: [data_manager.save(data_manager_window.input1,  # Saving data from mainwindow
                                                                                 data_manager_window.input2,
                                                                                 data_manager_window.var,

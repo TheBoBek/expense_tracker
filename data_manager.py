@@ -16,8 +16,12 @@ class DataManager:
         value_get = input2.get()
         type_get = var2.get()
         now_str = str(datetime.now())
+        value_get = float(value_get[:-1])
+        if var_get == 2:
+            value_get *= -1
+            print(value_get)
         try:
-            value_get = float(value_get[:-1])
+            value_get = value_get
         except ValueError:
             messagebox.showwarning(title="Chyba", message="Zadajte hodnotu")
         else:
@@ -28,23 +32,20 @@ class DataManager:
             if var_get == 2:
                 value_get *= -1
                 print(value_get)
-            try:
-                value_get = value_get
-            except ValueError:
-                messagebox.showwarning(title="Chyba", message="Zadajte správnu hodnotu.")
-            if account_balance + value_get < 0:
-                messagebox.showwarning(title="Chyba", message="Váš účet nemôže byť v zápornej hodnote")
+            messagebox.showwarning(title="Chyba", message="Zadajte správnu hodnotu.")
+        if account_balance + value_get < 0:
+            messagebox.showwarning(title="Chyba", message="Váš účet nemôže byť v zápornej hodnote")
 
-            else:
-                # New dict for saving data
-                new_dict = {
-                    now_str: {
-                        "Transaction": var_get,
-                        "Name": name_get,
-                        "Value": value_get,
-                        "Type": type_get,
-                    }
+        else:
+            # New dict for saving data
+            new_dict = {
+                now_str: {
+                    "Transaction": var_get,
+                    "Name": name_get,
+                    "Value": value_get,
+                    "Type": type_get,
                 }
+            }
                 try:
                     with open("data.json", "r") as data_file:
                         # Reading old data
