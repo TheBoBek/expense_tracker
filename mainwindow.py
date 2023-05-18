@@ -20,23 +20,24 @@ class MainWindow(Tk):
         self.trans_types = ["Domácnosť", "Strava", "Zdravie a poistenie", "Zábava", "Cestovanie", "Iné"]
         width = self.winfo_screenwidth()
         height = self.winfo_screenheight()
-        # setting tkinter window size
+        # Setting tkinter window size
         # Define a list of colors for the pie chart
         self.colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b"]
         self.geometry("%dx%d" % (width, height))
-        self.title("Expense Tracker2")
+        self.title("Expense Tracker")
         self.config(bg="#ced4da", width=1280, height=720)
         self.eval('tk::PlaceWindow . center')
         self.config(bg=WHITE)
         self.geometry("1280x750")
 
+        # Creating header frame
         header = Canvas()
         header.config(width=1094, height=80, bg=BLACK, highlightthickness=0)
         header.pack(fill=BOTH, ipady=40, ipadx=20)
         self.left_header = Frame(header, bg=BLACK)
         self.left_header.pack(side=LEFT)
         Label(self.left_header,
-              text="Šimon Bobko",
+              text="Milan Investičný",
               fg=WHITE,
               bg=BLACK,
               font=("Helvetica", 25, "bold")).pack(side=LEFT, ipadx=20)
@@ -45,8 +46,6 @@ class MainWindow(Tk):
               fg=WHITE,
               bg=BLACK,
               font=("Helvetica", 25, "bold")).pack(side=RIGHT, ipadx=20)
-
-        # zmen dizajn... vymen button txt za img
         self.pridaj_button = Button(self.left_header,
                                     text="Pridaj",
                                     fg=BLACK,
@@ -56,11 +55,14 @@ class MainWindow(Tk):
                                     font=("Helvetica", 25, "bold"))
         self.pridaj_button.pack(side=RIGHT)
 
+        # Creating body frame
         self.body_frame = Frame(bg=WHITE)
         self.body_frame.pack(fill=BOTH)
 
         self.left_body = Frame(self.body_frame, bg=WHITE)
         self.left_body.pack(side=LEFT, ipadx=1, expand=True)
+
+        # Green money display
         self.money_canvas = Canvas(self.left_body)
         self.money_canvas.config(bg=GREEN, width=80, height=50, highlightthickness=0, borderwidth=30)
         self.money_canvas.pack(ipady=20, ipadx=20)
@@ -79,17 +81,21 @@ class MainWindow(Tk):
         self.empty = Canvas(self.left_body, height=1, width=1, bg=WHITE, highlightthickness=0)
         self.empty.pack(ipady=15)
 
+        # Creating cake graph frame
         self.cake_frame = Frame(self.left_body, highlightthickness=0, bg="#ececec", borderwidth=30)
         self.cake_frame.pack()
         self.cake_graph = Canvas(self.cake_frame)
         self.cake_graph.config(width=320, height=230, highlightthickness=0, bg="#ececec")
         self.cake_graph.pack()
 
+        # Creating data graph
         self.data_graph(y_values)
+
         self.pie_chart_description = Frame(self.cake_frame, bg="#ececec", height=30, width=300)
         self.pie_chart_description.pack()
         self.pie_chart(chart_data)
 
+        # Setting description for cake graph
         Label(self.pie_chart_description, text=" ", bg="#ececec").pack(side=LEFT)
         for i, tran_type in enumerate(self.trans_types):
             if i == 3:
@@ -125,20 +131,28 @@ class MainWindow(Tk):
         else:
             max_label = 10000000
 
-        # Create the y-axis labels
+        # Creating the y-axis labels
         y_labels = [max_label // 10 * i for i in range(11)]
 
-        # Draw the y-axis labels
+        # Drawing the y-axis labels
         for i, y_label in enumerate(y_labels):
             y = 550 - y_label / max_label * 500
             self.canvas.create_text(75, y, text=str(y_label), anchor="e")
             self.canvas.create_line(100, y, 720, y, fill="light grey")
-
-        # Draw the y-axis line
+        # Drawing the y-axis line
         self.canvas.create_line(100, 50, 100, 550, width=2)
 
-        # Draw the x-axis labels
-        x_labels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun"]
+        # Drawing the x-axis labels
+        month_labels = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"]
+        x_labels = []
+        now_month = datetime.now().month
+        print(now_month)
+        for i in range(6):
+            if now_month - 1 - i >= 0:
+                x_labels.append(month_labels[now_month - 1 - i])
+            else:
+                x_labels.append(month_labels[12 + now_month - 1 - i])
+        x_labels = x_labels[::-1]
         for i, x_label in enumerate(x_labels):
             x = 100 + i * 125
             self.canvas.create_text(x, 570, text=x_label, anchor="n")
@@ -183,7 +197,7 @@ class MainWindow(Tk):
             start_angle = 0
             for i in range(len(pie_values)):
                 # Calculate the end angle for the current slice
-                end_angle = start_angle + 360 * (pie_values[i] * (-1)) / total
+                end_angle = start_angle + 360 * (pie_values[i]) / total
                 # Draw the slice
                 self.cake_graph.create_arc(60, 10, 260, 210, start=start_angle, extent=end_angle - start_angle,
                                            fill=self.colors[i])
@@ -203,13 +217,19 @@ class DataManagerWindow:
         self.pridaj_win.config(width=500,
                                height=400,
                                bg=WHITE)
-        self.var = IntVar()
+        self.var = IntVar(value=2)
         self.pridaj_end = False
         Label(self.pridaj_win,
               text="Pridaj transakciu",
-              bg=WHITE,
-              fg=BLACK,
+              bg=BLACK,
+              fg=WHITE,
               font=("Helvetica", 32, "bold")).pack(expand=True, ipadx=200, ipady=20)
+
+        Label(self.pridaj_win,
+              text=" ",
+              bg=WHITE,
+              font=("Helvetica", 10, "bold")).pack(ipady=3)
+
 
         self.frame_upper = Frame(self.pridaj_win, bg=WHITE)
         self.frame_upper.pack()
@@ -268,7 +288,7 @@ class DataManagerWindow:
         self.input2.insert(-1, "€")
         self.input2.pack()
 
-        self.var2 = IntVar()
+        self.var2 = IntVar(value=1)
         self.frame = Frame(self.pridaj_win, bg=WHITE)
         self.frame.pack(ipady=20)
         self.frame_radio_left = Frame(self.frame, bg=WHITE)
