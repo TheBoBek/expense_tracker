@@ -14,14 +14,14 @@ data_read = DataReader()
 
 
 def pridaj():
+    global value
     data_manager_window = DataManagerWindow(gui)  # Creates second window for data management
     data_manager = DataManager()
-    print(value)
     data_manager_window.pridaj_button.config(command=lambda: [data_manager.save(data_manager_window.input1,  # Saving data from mainwindow
                                                                                 data_manager_window.input2,
                                                                                 data_manager_window.var,
                                                                                 data_manager_window.var2,
-                                                                                value),
+                                                                                data_read.account_value),
                                                               data_manager_window.pridaj_win.destroy(),  # Destroys second window
                                                               data_read.get_history(),  # Updates attributes in data_reader
                                                               gui.update_graph(data_read.get_graph_data()), # Updates graph with new data

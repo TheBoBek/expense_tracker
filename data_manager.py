@@ -23,6 +23,15 @@ class DataManager:
         try:
             value_get = value_get
         except ValueError:
+            messagebox.showwarning(title="Chyba", message="Zadajte hodnotu")
+        else:
+            if 6 < type_get < 10 and var_get == 2:
+                type_get = 6
+            elif 0 < type_get < 7 and var_get == 1:
+                type_get = 9
+            if var_get == 2:
+                value_get *= -1
+                print(value_get)
             messagebox.showwarning(title="Chyba", message="Zadajte správnu hodnotu.")
         if account_balance + value_get < 0:
             messagebox.showwarning(title="Chyba", message="Váš účet nemôže byť v zápornej hodnote")
@@ -37,22 +46,22 @@ class DataManager:
                     "Type": type_get,
                 }
             }
-            try:
-                with open("data.json", "r") as data_file:
-                    # Reading old data
-                    data = json.load(data_file)
-            except FileNotFoundError:
-                with open("data.json", "w") as data_file:
-                    json.dump(new_dict, data_file, indent=4)
-            else:
-                # Updating old data with new data
-                data.update(new_dict)
+                try:
+                    with open("data.json", "r") as data_file:
+                        # Reading old data
+                        data = json.load(data_file)
+                except FileNotFoundError:
+                    with open("data.json", "w") as data_file:
+                        json.dump(new_dict, data_file, indent=4)
+                else:
+                    # Updating old data with new data
+                    data.update(new_dict)
 
-                with open("data.json", "w") as data_file:
-                    # Saving updated data
-                    json.dump(data, data_file, indent=4)
-            finally:
-                input1.delete(0, END)
-                input2.delete(0, END)
+                    with open("data.json", "w") as data_file:
+                        # Saving updated data
+                        json.dump(data, data_file, indent=4)
+                finally:
+                    input1.delete(0, END)
+                    input2.delete(0, END)
 
 
